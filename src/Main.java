@@ -4,7 +4,7 @@ public class Main {
         Biblioteca biblioteca = new Biblioteca();
 
         biblioteca.agregarRecurso(new Libro("Cien años de soledad", "García Márquez", 1967));
-        biblioteca.agregarRecurso(new Guia("guia sobre ciberseguridad", "WKI", 2025, "Matemática"));
+        biblioteca.agregarRecurso(new Guia("guia sobre ciberseguridad", "WKI", 2025, "Seguridad Online"));
         biblioteca.agregarRecurso(new Video("Tutorial VPN", "Kvyen", 2025, 5, "Youtube"));
 
         try {
