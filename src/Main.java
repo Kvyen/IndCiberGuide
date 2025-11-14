@@ -4,16 +4,16 @@ public class Main {
         Biblioteca biblioteca = new Biblioteca();
 
         biblioteca.agregarRecurso(new Libro("Cien años de soledad", "García Márquez", 1967));
-        biblioteca.agregarRecurso(new Guia("Derivadas nivel 1", "Kvyen", 2024, "Matemática"));
-        biblioteca.agregarRecurso(new Video("Clase de Java Polimorfismo", "Kvyen", 2024, 45, "YouTube"));
+        biblioteca.agregarRecurso(new Guia("guia sobre ciberseguridad", "WKI", 2025, "Matemática"));
+        biblioteca.agregarRecurso(new Video("Tutorial VPN", "Kvyen", 2025, 5, "Youtube"));
 
         try {
-            Recurso r1 = biblioteca.buscarRecurso("Derivadas nivel 1");
+            Recurso r1 = biblioteca.buscarRecurso("guia sobre ciberseguridad");
             r1.mostrarInfo();
 
             System.out.println();
 
-            Recurso r2 = biblioteca.buscarRecurso("Clase de Java Polimorfismo");
+            Recurso r2 = biblioteca.buscarRecurso("Tutorial VPN");
             r2.mostrarInfo();
 
         } catch (RecursoNoEncontradoException e) {
