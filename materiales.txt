@@ -1,1 +1,4 @@
 Guia Cibersec;WKI;Ciberactivismo;II EJI;GUIDE;PDF;14;null;null;null;0;
+What is cyber security?;Local Government Association;Información;The first video in the series will define cyber security, explain why councils are under threat, introduce and explain some key terms you may hear when learning about cyber security, and give some examples of why cyber security is important for local government.;VIDEO;null;0;02:57;https://www.youtube.com/watch?v=Yr0xPVFcf-U;null;0;
+Ciberseguridad;Ministerio de Justicia;Información;Libro de ciberseguridad del ministerio;BOOK;null;0;null;null;Ministerial;2018;
+Què es el acuerdo 169 de la OIT?;WKI;Derechos Indígenas;Live de Youtube;VIDEO;null;0;120:20;https://www.youtube.com/live/NJZTKunGulM?si=KXftiogueO5DEOWF;null;0;
