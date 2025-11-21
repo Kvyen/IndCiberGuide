@@ -1,3 +1,5 @@
+package Model;
+
 public class Video extends Recurso {
     private int duracionMin; // duración en minutos
     private String plataforma; // YouTube, Vimeo, MP4 local, etc.
@@ -10,7 +12,7 @@ public class Video extends Recurso {
 
     @Override
     public void mostrarInfo() {
-        System.out.println("Video");
+        System.out.println("Clases.Video");
         super.mostrarInfo();
         System.out.println("Duración: " + duracionMin + " min");
         System.out.println("Plataforma: " + plataforma);

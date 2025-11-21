@@ -1,5 +1,8 @@
+package Model;
+
 import java.util.ArrayList;
 import java.util.List;
+import Exception.RecursoNoEncontradoException;
 
 public class Biblioteca {
     private List<Recurso> recursos = new ArrayList<>();
@@ -14,6 +17,6 @@ public class Biblioteca {
                 return recurso;
             }
         }
-        throw new RecursoNoEncontradoException("Recurso no encontrado: " + titulo);
+        throw new RecursoNoEncontradoException("Model.Recurso no encontrado: " + titulo);
     }
 }

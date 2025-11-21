@@ -1,3 +1,5 @@
+package Model;
+
 public class Libro extends Recurso {
     public Libro(String titulo, String autor, int añoPublicacion) {
         super(titulo, autor, añoPublicacion);
@@ -5,7 +7,7 @@ public class Libro extends Recurso {
 
     @Override
     public void mostrarInfo() {
-        System.out.println("Libro");
+        System.out.println("Clases.Libro");
         super.mostrarInfo();
     }
 }

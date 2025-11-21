@@ -1,3 +1,5 @@
+package Model;
+
 public class Recurso {
     private String titulo;
     private String autor;

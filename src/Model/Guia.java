@@ -1,3 +1,5 @@
+package Model;
+
 public class Guia extends Recurso {
     private String Tema;
 
