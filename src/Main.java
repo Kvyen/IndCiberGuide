@@ -17,7 +17,7 @@ public class Main {
         int opcion;
 
         do {
-            System.out.println("\n===== Menú Principal =====");
+            System.out.println("\nBienvenidx a IndCiberSec");
             System.out.println("1. Ingresar guía");
             System.out.println("2. Ingresar video");
             System.out.println("3. Ingresar libro");
